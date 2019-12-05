@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header > .intro {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
+  color: #5ce9f8;
+  text-shadow: 3px 3px 2px darkgreen;
+}

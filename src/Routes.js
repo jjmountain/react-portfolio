@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Home from './Home';
-import Experience from './Experience';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from './pages/Home';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 
 const Routes = () => {

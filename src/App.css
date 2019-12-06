@@ -8,11 +8,34 @@ html {
   html {
     font-size: 14px;
   }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto;
+  }
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    /* padding: 1rem; */
+    /* border: darkgreen 1px solid; */
+  }
+
+  .lewagon-text {
+    grid-column: 1 ;
+  }
+
+  .lewagon-photo {
+    grid-column: 2;
   }
 }
 
@@ -26,4 +49,42 @@ html {
   html {
     font-size: 20px;
   }
+}
+
+p {
+  color: #003b5d;
+}
+
+a {
+  font-weight: 500;
+  color: #2162a8;
+}
+
+a:hover {
+  color: #78dce1;
+  text-decoration: none;
+  
+}
+
+.highlight {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #adffa3 65%);
+}
+
+.section-heading {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.exp-img {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.lewagon-text > p {
+  margin-top: 1rem;
 }

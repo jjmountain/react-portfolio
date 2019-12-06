@@ -5,24 +5,30 @@ header {
   text-align: center;
 }
 
-header > .tagline {
+.tagline {
   font-size: 1.5rem;
-  margin: 2rem 0;
-  font-weight: 200;
+  margin: 1rem 0 2rem 0;
+  font-weight: 400;
   background-color: white;
-  border: 1px solid #a4e3cd;
+  /* border: 1px solid #a4e3cd; */
   padding: 0.3rem;
-  font-family: 'Tomorrow', sans-serif;
-  text-shadow: 1px 1px 3px aquamarine;
+  /* font-family: 'Tomorrow', sans-serif; */
+  /* text-shadow: 1px 1px 3px aquamarine; */
 }
 
-header > .intro {
+.intro {
   font-family: 'Tomorrow', sans-serif;
   font-size: 3.75em;
   font-weight: 600;
   color: #78dce1;
   text-shadow: 3px 3px 2px darkgreen;
 
+}
+
+.icons-social {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icons-social i {
@@ -35,17 +41,7 @@ header > .intro {
   color: #12cc29;
 }
 
-.profile {
-  font-weight: 250;
-  font-size: 25px;
-  line-height: 1.8em;
-  padding: 1rem 2rem;
-  border-left: 1px solid #a4e3cd;
-  border-bottom: 1px solid #a4e3cd;
-  border-right: 1px solid #a4e3cd;
-  text-align: left;
-  min-height: 280px;
-}
+
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #495057;
@@ -61,11 +57,17 @@ header > .intro {
   border-bottom: 1px solid #a4e3cd;
 }
 
-.profile a:hover {
-  color: #12cc29;
-
+.profile {
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 1.8em;
+  padding: 1rem 2rem;
+  border: 1px solid #a4e3cd;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 p {
   font-size: 18px;
@@ -76,9 +78,4 @@ li {
   font-size: 18px;
   line-height: 1.7rem;
 
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'tomorrow', 'sans-serif';
-  text-shadow: 3px 3px 4px darkolivegreen;
 }

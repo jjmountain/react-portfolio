@@ -11,9 +11,15 @@ html {
 
   .grid-container {
     display: grid;
-    grid-gap: 50px;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
     grid-template-columns: auto;
   }
+
+  .skills-container {
+    columns: 4;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -21,21 +27,36 @@ html {
     font-size: 16px;
   }
 
+  p, li {
+    font-size: 16px;
+    line-height: 1.4rem;
+  }
+
   .grid-container {
     display: grid;
     grid-row-gap: 20px;
-    grid-column-gap: 50px;
-    grid-template-columns: auto auto;
-    /* padding: 1rem; */
-    /* border: darkgreen 1px solid; */
-  }
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto auto;
 
-  .lewagon-text {
-    grid-column: 1 ;
   }
 
   .lewagon-photo {
-    grid-column: 2;
+    grid-column: 2 / span 1;
+
+    }
+  
+  
+  .lewagon-intro-text {
+    grid-column: 1 / span 2;
+  }
+  
+  .lewagon-text {
+    grid-column: 1 / span 1;
+
+  }
+  
+  .skills-container {
+    columns: 4;
   }
 }
 
@@ -49,6 +70,10 @@ html {
   html {
     font-size: 20px;
   }
+}
+
+.skills-container > ul {
+  list-style-type: square;
 }
 
 p {

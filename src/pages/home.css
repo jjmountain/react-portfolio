@@ -59,8 +59,6 @@ header {
 
 .profile {
   font-weight: 350;
-  font-size: 25px;
-  line-height: 1.8em;
   padding: 1rem 2rem;
   border: 1px solid #a4e3cd;
   text-align: left;
@@ -69,13 +67,3 @@ header {
   justify-content: center;
 }
 
-p {
-  font-size: 18px;
-    line-height: 1.7rem;
-}
-
-li {
-  font-size: 18px;
-  line-height: 1.7rem;
-
-}

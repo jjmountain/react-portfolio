@@ -1,0 +1,27 @@
+.quote-icon-left {
+  position: absolute;
+  left: 0px;
+  color: #003b5d;
+  opacity: 0.5;
+}
+
+.quote-icon-right {
+  position: absolute;
+  margin-left: 1rem;
+  color: #003b5d;
+  display: inline-block;
+  opacity: .5;
+}
+
+.quote {
+  list-style-type: none;
+  font-style: italic;
+  display: inline-block;
+  /* margin-top: 1rem; */
+}
+
+.quotebox {
+  position: relative;
+  max-width: 90%;
+  grid-area: lewagonQuote;
+}

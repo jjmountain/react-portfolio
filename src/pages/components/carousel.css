@@ -1,3 +1,8 @@
 .carousel {
   width: 30rem;
 }
+
+
+.carousel-text {
+  color: black;
+}

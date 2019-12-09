@@ -4,6 +4,10 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: white;
+}
+
 @media (min-width: 576px) {
   html {
     font-size: 14px;

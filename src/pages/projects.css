@@ -1,0 +1,17 @@
+.project-pic {
+  width: 500px;
+  box-shadow: 3px 3px 3px #5ce9f878;
+}
+
+iframe {
+  box-shadow: 3px 3px 3px #5ce9f878;
+}
+
+@media (min-width: 576px;) {
+
+}
+
+@media (min-width: 768px;) {
+  
+  
+}

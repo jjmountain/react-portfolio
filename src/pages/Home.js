@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -11,13 +12,14 @@ const Home = () => {
 
         <div class="profile">
           
-         <p>Tokyo-based full-stack developer from the UK with one year of development experience, <span class="highlight">looking for a position starting early 2020</span> at a startup as a frontend, backend, or fullstack engineer. Open to remote but in-person in Tokyo is preferred.</p>
+         <p>Tokyo-based full-stack developer from the UK with one year of development and support experience, looking for a position starting early 2020 at a startup as a frontend, backend, or fullstack engineer.</p>
          <p>Areas of web-development I am highly skilled in include:</p>
          <div className="skills-container">
            <ul className='skills-group'>
              <li>Ruby on Rails</li>
              <li>JavaScript</li>
              <li>React</li>
+             <li>Stimulus.js</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Bootstrap</li>
@@ -27,12 +29,12 @@ const Home = () => {
             <li>Heroku</li>
            </ul>
          </div>
-
-         {/* <ul>
-           <li>Check out <a href="#lewagon">what I've learned over the last year with Le Wagon</a></li>
-           <li>See some of <a href="#projects">the projects</a> I've worked on in rails and react</li>
-           <li>Interested in hiring me? Send me <a href="mailto:devereuxjj@gmail.com">an email</a> and let's talk 🙂</li>
-         </ul> */}
+         <p>I'm also an excellent critical thinker, problem solver, and communicator - both in English and my advanced Japanese.</p> 
+         <ul>
+           <li>Check out <Link to='/experience'>what I've learned</Link> over the last year with Le Wagon</li>
+           <li>See some of <Link to='/projects'>the projects I've built </Link>in rails and react</li>
+           <li>Interested in hiring me? Send me an email to <a href="mailto:devereuxjj@gmail.com">devereuxjj@gmail.com</a> and let's talk 🙂</li>
+         </ul>
         </div>       
     
   </header>

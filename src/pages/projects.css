@@ -1,5 +1,5 @@
 .project-pic {
-  width: 500px;
+  width: 100%;
   box-shadow: 3px 3px 3px #5ce9f878;
 }
 
@@ -7,11 +7,28 @@ iframe {
   box-shadow: 3px 3px 3px #5ce9f878;
 }
 
-@media (min-width: 576px;) {
-
+@media (min-width: 576px) {
+  .tech-pic-box {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    width: 100vw;
+  }
 }
 
-@media (min-width: 768px;) {
-  
-  
+@media (min-width: 768px) {
+  .tech-pic-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .project-image {
+    flex-basis: 50%;
+  }
+}
+
+.projects-container {
+  max-width: 950px;
 }

@@ -14,7 +14,8 @@ const Experience = () => {
   const quoteFour = "James is hands down the best TAs in terms of explaining a certain topic you don't understand. He has this amazing way of teaching people and has a really amazing personality";
 
   return ( 
-    <div>
+    <div className="d-flex justify-content-center">
+    <div className='exp-container'>
       <div className="section-heading">
         <h2 className='highlight'>Work Experience</h2>
       </div>
@@ -30,7 +31,7 @@ const Experience = () => {
         </div>
       <div className="lewagon-text">
         <h6><strong><u>Teaching Assistant at Tokyo Coding Bootcamps</u></strong></h6>
-        <h9>April - November 2019</h9>
+        <h9>April 2019 - Present</h9>
           <p>
            During my time as a teaching assistant, I supported over 60 students, across three batches to go from having no coding knowledge to becoming competent full-stack developers. Most of my time was spent helping students debug their code, either in coding exercises or in the projects that they were building. I also helped organize social events such as weekly futsal games.     
           </p>
@@ -55,8 +56,8 @@ const Experience = () => {
         <div className="lewagon-photo">
           <img src={require('./assets/livecode.jpg')} className='exp-img mb-4' alt="" />
         </div>
-        
       </div>
+    </div>
     </div>
    );
 }

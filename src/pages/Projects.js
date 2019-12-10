@@ -20,10 +20,13 @@ const Projects = () => {
           <u>Technologies used:</u>
         <div className='tech-pic-box'>
           <div>
-            Ruby on Rails
+            <ul>
+              <li>Ruby on Rails</li>
             <ul><li>ActionCable</li><li>ActiveRecord</li><li>Postgresql</li></ul>
-          Ruby gems: <ul><li>Devise</li><li>Carrierwave</li></ul>
-          Services: <ul><li>Cloudinary (cloud-based storage)</li><li>Heroku</li><li>Github</li></ul>
+
+            </ul>
+          <ul><li>Ruby gems:</li><ul><li>Devise</li><li>Carrierwave</li></ul></ul> 
+          <ul><li>Services:</li> <ul><li>Cloudinary (cloud-based storage)</li><li>Heroku</li><li>Github</li></ul></ul>
           </div>
           <div className='project-image'>
           <div class="embed-responsive embed-responsive-16by9">
@@ -41,10 +44,9 @@ const Projects = () => {
     <u>Technologies used:</u>
     <div className='tech-pic-box'>
     <div>
-        Ruby on Rails
-        <ul><li>API Mode</li><li>Postgresql</li><li>PG_search gem</li></ul>
-      Javascript: <ul><li>React</li></ul>
-      Services: <ul><li>Heroku</li><li>Github</li></ul>
+        <ul><li>Ruby on Rails</li><ul><li>API Mode</li><li>Postgresql</li><li>PG_search gem</li></ul></ul>
+      <ul><li>Javascript</li><ul><li>React</li></ul></ul> 
+      <ul><li>Services</li><ul><li>Heroku</li><li>Github</li></ul></ul>
       </div>
       <div className='project-image'>
       <a href="https://kanji-livesearch.herokuapp.com/" target='_blank' rel="noopener noreferrer"><img src={require('./assets/kanji-live-pic.jpg')} alt='kanji-live-search-screenshot' className='project-pic'/></a>
@@ -58,10 +60,10 @@ const Projects = () => {
     <u>Technologies used:</u>
     <div className='tech-pic-box'>
     <div>
-        Ruby on Rails
-        <ul><li>Action Cable</li></ul>
-      Javascript: <ul><li>Stimulus.js</li></ul>
-      Services: <ul><li>Heroku</li><li>Github</li></ul>
+        <ul><li>Ruby on Rails</li><ul><li>Action Cable</li></ul></ul>
+        
+      <ul><li>Javascript</li><ul><li>Stimulus.js</li></ul></ul>
+      <ul><li>Services</li><ul><li>Heroku</li><li>Github</li></ul></ul>
       </div>
       <div className='project-image'>
       <img src={require('./assets/classkeeper-pic.png')} alt='kanji-live-search-screenshot' className='project-pic'/>

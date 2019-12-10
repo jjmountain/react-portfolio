@@ -12,7 +12,7 @@ const Navbar = () => {
   const githubIcon = <FontAwesomeIcon icon={['fab', 'github']} size="lg" />
 
   return ( 
-    <ul className='navbar'>
+    <ul className='navbar sticky-top bg-white'>
       <li>
         <NavLink exact to='/' activeClassName='navbar-selected'>{homeIcon}</NavLink>
       </li>

@@ -2,24 +2,24 @@
   justify-content: space-between;
   list-style-type: none;
   padding: 0.5rem 0;
+  box-shadow: 0 5px 6px -6px #b8b8b8;
 }
 
 .navbar-selected {
-  color: #78dce1;
+  /* color: #78dce1; */
+  font-weight: 700;
 }
 
 @media (max-width: 576px) {
 
-  .navbar {
-    justify-content: space-between;
-  }
-  
+ 
   
   }
   
   @media (min-width: 768px) {
-    .navbar {
-      justify-content: space-around;
-    }
- 
   }
+
+  .navbar {
+    justify-content: space-around;
+  }
+  

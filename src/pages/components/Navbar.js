@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './navbar.css';
 
@@ -14,13 +14,13 @@ const Navbar = () => {
   return ( 
     <ul className='navbar'>
       <li>
-        <Link to='/'>{homeIcon}</Link>
+        <NavLink exact to='/' activeClassName='navbar-selected'>{homeIcon}</NavLink>
       </li>
       <li>
-        <Link to='/experience'>Experience</Link>
+        <NavLink exact to='/experience' activeClassName='navbar-selected'>Experience</NavLink>
       </li>
       <li>
-        <Link to='/projects'>Projects</Link>
+        <NavLink exact to='/projects' activeClassName='navbar-selected'>Projects</NavLink>
       </li>
       <li>
         <div class="icons-social">

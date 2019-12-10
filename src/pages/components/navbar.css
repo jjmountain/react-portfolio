@@ -1,5 +1,25 @@
 .navbar {
-  justify-content: space-around;
-    list-style-type: none;
-    margin: .5rem;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0.5rem 0;
 }
+
+.navbar-selected {
+  color: #78dce1;
+}
+
+@media (max-width: 576px) {
+
+  .navbar {
+    justify-content: space-between;
+  }
+  
+  
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      justify-content: space-around;
+    }
+ 
+  }

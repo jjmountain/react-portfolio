@@ -71,7 +71,7 @@ const Projects = () => {
     </div>
 
     <hr className='my-4' />
-    <div className="d-flex justify-content-between mt-4"><h3 className='d-inline'>This Portfolio(..!)</h3> <a href="https://github.com/jjmountain/react-portfolio" target='_blank' rel="noopener noreferrer">[view on github]</a></div>
+    <div className="d-flex justify-content-between mt-4"><h3 className='d-inline'>This Portfolio..</h3> <a href="https://github.com/jjmountain/react-portfolio" target='_blank' rel="noopener noreferrer">[view on github]</a></div>
     <p>I initially designed my portfolio website as a single HTML page, but after it grew I decided that it would work better as a one page React app.</p>
     <p>I used React Router for the routing to create super-fast links between the pages, as well as Bootstrap 4 and FontAwesome Icons to help me to quickly build a decent-looking site.</p>
     </div>

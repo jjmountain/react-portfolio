@@ -14,8 +14,8 @@ function App() {
   return (
     <>
     <wrapper className="d-flex flex-column">
-      <Navbar />
       <div className="container" id='page-container'>
+      <Navbar />
         <Routes />
       </div>
       <Footer />

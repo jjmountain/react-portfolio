@@ -19,11 +19,6 @@ body {
     grid-column-gap: 30px;
     grid-template-columns: auto;
   }
-
-  .skills-container {
-    columns: 2;
-  }
-
 }
 
 @media (min-width: 768px) {
@@ -59,10 +54,6 @@ body {
 
   }
   
-  .skills-container {
-    columns: 4;
-    margin-bottom: 1.2rem;
-  }
 }
 
 @media (min-width: 992px) {
@@ -88,11 +79,11 @@ wrapper {
 
 .skills-container > ul {
   list-style-type: square;
-  padding-inline-start: 10px;
+  padding-inline-start: 30px;
 }
 
-..skills-container > li {
-  display: inline-block;
+.skills-container > li {
+  display: inline;
 }
 
 

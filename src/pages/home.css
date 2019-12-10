@@ -6,6 +6,61 @@ header {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1rem;
+}
+
+.skills-container > ul {
+  margin-bottom: 0;
+}
+
+.skills-1 {
+  grid-column: 1 / span 1;
+}
+
+.skills-2 {
+  grid-column: 2 / span 1;
+}
+
+.skills-3 {
+  grid-column: 1 / span 1;
+}
+
+.skills-4 {
+  grid-column: 2 / span 1;
+}
+
+
+}
+
+@media (min-width: 768px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .skills-1 {
+    grid-column: 1 / span 1;
+  }
+
+  .skills-2 {
+    grid-column: 2 / span 1;
+  }
+
+  .skills-3 {
+    grid-column: 3 / span 1;
+  }
+
+  .skills-4 {
+    grid-column: 4 / span 1;
+  }
+
+}
+
 .tagline {
   font-size: 1.5rem;
   margin: 1rem 0 2rem 0;

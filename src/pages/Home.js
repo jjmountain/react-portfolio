@@ -15,19 +15,26 @@ const Home = () => {
          <p>Tokyo-based full-stack developer from the UK with one year of development and support experience, looking for a position starting early 2020 at a startup as a frontend, backend, or fullstack engineer.</p>
          <p>Areas of web-development I am highly skilled in include:</p>
          <div className="skills-container">
-           <ul className='skills-group'>
+           <ul className='skills-1'>
              <li>Ruby on Rails</li>
-             <li>JavaScript</li>
              <li>React</li>
              <li>Stimulus.js</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>SQL</li>
-             <li>git</li>
-            <li>Github</li>
-            <li>Heroku</li>
            </ul>
+            <ul className="skills-2">
+             <li>Ruby</li>
+             <li>JavaScript</li>
+             <li>HTML</li>
+            </ul>
+            <ul className="skills-3">
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Figma/Sketch</li>
+            </ul>
+            <ul className="skills-4">
+              <li>SQL</li>
+              <li>git & Github</li>
+              <li>Heroku</li>
+            </ul>
          </div>
          <p>I'm also an excellent critical thinker, problem solver, and communicator - both in English and my advanced Japanese.</p> 
          <ul>

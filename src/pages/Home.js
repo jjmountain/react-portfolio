@@ -12,7 +12,7 @@ const Home = () => {
 
         <div class="profile">
           
-         <p>Tokyo-based full-stack developer from the UK with one year of development and support experience, looking for a position starting early 2020 at a startup as a frontend, backend, or fullstack engineer.</p>
+         <p>Tokyo-based full-stack developer from the UK, looking for opportunities as a frontend, backend, or fullstack engineer.</p>
          <p>Areas of web-development I am highly skilled in include:</p>
          <div className="skills-container">
            <ul className='skills-1'>
@@ -39,7 +39,7 @@ const Home = () => {
          <p>I'm also an excellent critical thinker, problem solver, and communicator - both in English and my advanced Japanese.</p> 
          <ul>
            <li>Check out <Link to='/experience'>what I've learned</Link> over the last year with Le Wagon</li>
-           <li>See some of <Link to='/projects'>the projects I've built </Link>in rails and react</li>
+           <li>See some of <Link to='/projects'>the projects I've built </Link>in Rails and React</li>
            <li>Interested in hiring me? Send me an email to <a href="mailto:devereuxjj@gmail.com">devereuxjj@gmail.com</a> and let's talk 🙂</li>
          </ul>
         </div>       
